@@ -1,0 +1,14 @@
+﻿using Contracts.ServiceManagement;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Contracts
+{
+    public class DynamicSearchSharingModelsResponse
+    {
+        public IEnumerable<DynamicSearchSharingModelsDto> CommDetails { get; set; }
+    }
+}
